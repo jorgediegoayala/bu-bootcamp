@@ -1,0 +1,1 @@
+Using Git I can control changes for every file in the module and work in separate branches. This allows me to commit and test updates without affecting the main branch.

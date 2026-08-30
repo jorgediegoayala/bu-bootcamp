@@ -19,4 +19,11 @@ public class Contact{
         this.name = name;
         this.phone = phone;
     }
+
+    public boolean hasValidPrefix(){
+        if (this.phone == null || this.phone.trim().isEmpty()) {
+            return false;
+        }
+        return this.phone.startsWith("+");
+    }
 }

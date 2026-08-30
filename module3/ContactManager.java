@@ -22,7 +22,7 @@ public class ContactManager {
        }  
     }
 
-    private static HashMap<String, Contact> GetContacts(){
+    public static HashMap<String, Contact> GetContacts(){
         Contact ada = new Contact("Ada Lovelace","+1 617 555 0101"); 
         Contact donald = new Contact("Donald Duck","+1 301 445 0202"); 
         Contact mickey = new Contact("Mickey Mouse","+1 302 446 0303");
